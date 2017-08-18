@@ -1,6 +1,4 @@
 
-__author__ = 'MacUser'
-
 import create_post, Post_and_comments, commenting_on_post
 import sys
 
@@ -51,7 +49,3 @@ if len(arguments) == 4 and arguments[0] == "comment":
     else:
         print("Something went wrong, please give it another shot")
     exit()
-
-
-
-
